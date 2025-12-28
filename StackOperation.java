@@ -54,7 +54,7 @@ public class StackOperation {
     // Display Operation
 
     static  void display(){
-        if(isEmpty){
+        if(isEmpty()){
             System.out.println("Stack is Empty");
         }
         for(int i = top; i > 0; i--){
